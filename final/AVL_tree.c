@@ -137,7 +137,7 @@ void printTree(Node *root, int level) {
 
 int main() {
     Node* root = NULL;
-    int keys[] = {5, 15, 25, 45, 35, 30, 20, 27, 29};
+    int keys[] = {5, 26, 31, 36, 14, 9, 19, 33, 23, 20};
     int n = sizeof(keys) / sizeof(keys[0]);
 
     for (int i = 0; i < n; i++) {
